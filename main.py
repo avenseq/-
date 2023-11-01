@@ -53,6 +53,7 @@ class Game:
                                 print('Это не русская буква')
                     if self.fails >= 6:
                         board.draw(self.fails)
+                        print(f'Слово: {word}')
                         print('Ты проиграл!')
                     else:
                         print('Ты победил!')
